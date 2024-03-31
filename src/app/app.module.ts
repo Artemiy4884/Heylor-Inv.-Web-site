@@ -10,6 +10,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { TopBannerComponent } from './about-page/top-banner/top-banner.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './header/header.component';
     ActivitiesPageComponent,
     ContactPageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    TopBannerComponent
   ],
   imports: [
     BrowserModule,
