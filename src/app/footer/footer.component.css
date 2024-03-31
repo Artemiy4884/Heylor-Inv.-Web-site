@@ -1,0 +1,53 @@
+#footer {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  height: 75px;
+}
+
+#footer > a:nth-child(2) {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#footer > p:nth-child(1) {
+  font-family: lato-light, sans-serif;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-sm {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-sm-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
