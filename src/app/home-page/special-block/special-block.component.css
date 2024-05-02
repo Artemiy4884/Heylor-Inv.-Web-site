@@ -1,0 +1,21 @@
+.special-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3.125rem 0.5rem;
+  font-family: lato-regular, sans-serif;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+}
+
+.small-text{
+  font-family: sans-serif;
+  text-align: center;
+}
