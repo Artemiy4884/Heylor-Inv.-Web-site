@@ -1,7 +1,7 @@
 .row{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .divider{
@@ -11,5 +11,20 @@
 
 .pic{
   margin: 0 0;
-  height: 209px;
+  height: 299px;
+}
+
+.ask-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask-text{
+  margin: 0 0;
+  font-family: sans-serif;
+  font-size: 40px;
+  letter-spacing: normal;
+  line-height: 54px;
+  color: black;
 }

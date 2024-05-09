@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent {
-
+  pages: { title: string, url: string, fragment?: string }[] = [
+    { title: 'Contacts', url: '/contacts' }
+  ]
 }
