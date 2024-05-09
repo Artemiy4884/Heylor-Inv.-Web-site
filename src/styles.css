@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: oswald-medium;
+  src: url('assets/fonts/oswald-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: lato-light;
+  src: url('assets/fonts/lato-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url('assets/fonts/lato-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: avenir-light;
+  src: url('assets/fonts/avenir-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: rozha one;
+  src: url('assets/fonts/rozha-one.ttf') format('truetype');
+}
