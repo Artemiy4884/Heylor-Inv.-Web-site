@@ -10,6 +10,7 @@
   color: black;
   font-family: rozha one, sans-serif;
   font-size: 40px;
+  font-weight: 100;
   line-height: 54px;
   letter-spacing: normal;
 }
@@ -60,7 +61,7 @@
 
 .big-text{
   margin-top: 20px;
-  font-family: lato-light, sans-serif;
+  font-family: avenir-light, sans-serif;
   font-size: 25px;
   letter-spacing: normal;
   line-height: 40px;
@@ -70,5 +71,11 @@
 .text-shadow{
   text-shadow: rgba(0, 0, 0, 0.4) 0 4px 5px;
 }
+
+.blank{
+  height: 30px;
+  background-color: rgb(209, 203, 200);
+}
+
 
 

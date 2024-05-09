@@ -14,7 +14,7 @@
 }
 
 .title-text-style{
-  font-family: lato-light, sans-serif;
+  font-family: avenir-light, sans-serif;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: normal;
@@ -23,7 +23,7 @@
 }
 
 .text-style{
-  font-family: lato-light, sans-serif;
+  font-family: avenir-light, sans-serif;
   font-size: 18px;
   letter-spacing: normal;
   line-height: 34px;
@@ -36,6 +36,7 @@
   color: black;
   font-family: rozha one, sans-serif;
   font-size: 40px;
+  font-weight: 100;
   line-height: 54px;
   letter-spacing: normal;
 }
@@ -47,5 +48,5 @@
 
 .blank{
   height: 30px;
-  background-color: rgb(239, 233, 230);
+  background-color: rgb(209, 203, 200);
 }

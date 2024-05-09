@@ -22,3 +22,7 @@
   font-family: rozha one;
   src: url('assets/fonts/rozha-one.ttf') format('truetype');
 }
+
+body {
+  margin: 0;
+}
