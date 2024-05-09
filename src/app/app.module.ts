@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { TopBannerComponent } from './about-page/top-banner/top-banner.component';
 import {HomePageModule} from "./home-page/home-page.module";
+import {HeaderModule} from "./header/header.module";
 
 @NgModule({
   declarations: [
@@ -19,12 +20,12 @@ import {HomePageModule} from "./home-page/home-page.module";
     ActivitiesPageComponent,
     ContactPageComponent,
     FooterComponent,
-    HeaderComponent,
     TopBannerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeaderModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

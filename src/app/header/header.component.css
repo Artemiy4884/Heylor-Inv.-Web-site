@@ -1,0 +1,43 @@
+.logo-img {
+  margin: 15px 70px;
+  height: 94px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.bar-pos{
+  position: fixed;
+  top: 0;
+}
+
+.buttons-block{
+  display: flex;
+  flex-direction: row;
+}
+
+.button{
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.button:hover {
+  color: rgb(70, 70, 70);
+}
+
+.left-button {
+  margin-right: 80px;
+}
+
+.no-dec{
+  text-decoration: none;
+}
